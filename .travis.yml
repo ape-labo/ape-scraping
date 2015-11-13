@@ -3,6 +3,7 @@ node_js:
 - '0.11'
 before_install:
 - npm install istanbul nodeunit mocha -g
+- npm install zombie
 install:
 - npm install
 before_script:
